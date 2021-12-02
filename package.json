@@ -1,0 +1,35 @@
+{
+  "name": "use-timer-count",
+  "version": "0.5.0",
+  "description": "Hooks related to counters",
+  "main": "dist/index.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc --build tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiezdev/useTimer.git"
+  },
+  "author": {
+    "name": "Adiezvev",
+    "url": "https://adiez.dev"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "timer"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adiezdev/useTimer/issues"
+  },
+  "homepage": "https://github.com/adiezdev/useTimer#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.2"
+  }
+}
