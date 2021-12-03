@@ -8,7 +8,7 @@
 I have created these little hooks, inspired by some that are very similar
 
 ```
-Please upgrade to 0.5.32
+Please upgrade to 0.5.33
 
 npm i use-timer-count
 ```
