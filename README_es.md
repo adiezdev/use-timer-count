@@ -17,7 +17,8 @@ He este caso he construido dos hooks:
 Muy sencillo, es un contador en retroceso, en el que se le pasa en minutos desde donde empieza y tambien cuenta con un callback, para que haga una acción al acabar
 
 ```javascript
-const { days, hours, minutes, seconds, start, pause, restart } = useCountDown({ expiryTime: 0.5, onExpire: alert("Hi")) });
+const { days, hours, minutes, seconds, start, pause, restart } = 
+useCountDown({ expiryTime: 0.5, onExpire: alert("Hi")) });
 ```
 Te devuelve los datos necesarios dependiendo de los minutos pasados, tambien controladores.
 
@@ -47,7 +48,8 @@ Te devuelve los datos necesarios dependiendo de los minutos pasados, tambien con
 Este hook hace el efecto contrario, es un contador incremental que escucha hasta el tiempo que se la pasa, ese será su top
 
 ```javascript
-const { days, hours, minutes, seconds, start, pause, reset} = useStopwatch({ offsetTime: 0.5 });
+const { days, hours, minutes, seconds, start, pause, reset} = 
+useStopwatch({ offsetTime: 0.5 });
 ```
 
 De momento este no tiene un callback, para que haga alguna acción al acabar. Al igual que el anteriores te devuelve todo lo necesario
