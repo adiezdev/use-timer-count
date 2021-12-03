@@ -5,7 +5,7 @@
 He creado estos pequeños hooks, inspirandome en algunos que son muy similares.
 
 ```
-Por favor update a 0.5.31
+Por favor update a 0.5.32
 
 npm i use-timer-count
 ```
