@@ -1,3 +1,1 @@
-import { useInterval } from "./useInterval";
-
-export { useInterval };
+export { useInterval } from "./useInterval";

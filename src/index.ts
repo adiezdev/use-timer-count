@@ -1,4 +1,2 @@
-import { useStopwatch } from './useStopwatch';
-import { useCountDown } from './useTimer';
-
-export { useStopwatch, useCountDown };
+export { useStopwatch } from './useStopwatch';
+export { useCountDown } from './useTimer';
