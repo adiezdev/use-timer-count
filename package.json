@@ -1,6 +1,6 @@
 {
   "name": "use-timer-count",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Hooks related to counters",
   "main": "dist/index.ts",
   "scripts": {

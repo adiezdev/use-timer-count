@@ -51,7 +51,7 @@ export const useStopwatch = ({ offsetTime, autoStart = true }: StopwatchSettings
     if (time >= finalTime) {
       setIsRunning(false);
       return 0;
-    }
+    }else { return handleStopwatch(); }
   }, isRunning ? delay : 0);
 
   return ({ ...setNewTime(time), isRunning, pause, start, reset } as StopwatchResult);

@@ -48,12 +48,11 @@ export const useCountDown = ({ expiryTime, onExpire, autoStart = true }: CountDo
   useInterval(() => {
     const valueTime = handleCountDown();
     setTime(valueTime);
-
     if (valueTime <= 0) {
       onExpire && onExpire();
       setIsRunning(false);
       return 0;
-    }
+    }else{ return valueTime }
   }, isRunning ? delay : 0);
 
   return ({ ...setNewTime(time), isRunning, pause, start, restart } as TimerResult);
