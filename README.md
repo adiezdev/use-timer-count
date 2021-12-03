@@ -1,8 +1,6 @@
 # useTimerCount
 
-[Readme in ES🇪🇸]
-
-[Reame in ES🇪🇸]: http://limni.net/blog/
+[Readme in ES🇪🇸](https://github.com/adiezdev/use-timer-count/blob/main/README_es.md)
 
 
 👋 Hello
@@ -22,7 +20,8 @@ In this case I have built two hooks:
 Very simple, it is a countdown counter, in which it is passed in minutes from where it starts and it also has a callback, so that it performs an action at the end.
 
 ```javascript
-const { days, hours, minutes, seconds, start, pause, restart } = useCountDown({ expiryTime: 0.5, onExpire: alert("Hi")) });
+const { days, hours, minutes, seconds, start, pause, restart } = 
+useCountDown({ expiryTime: 0.5, onExpire: alert("Hi")) });
 ```
 
 It returns the necessary data depending on the number of minutes elapsed, including controllers.
@@ -53,7 +52,8 @@ It returns the necessary data depending on the number of minutes elapsed, includ
 This hook does the opposite effect, it is an incremental counter that listens until the time you pass it, that will be your top
 
 ```javascript
-const { days, hours, minutes, seconds, start, pause, reset} = useStopwatch({ offsetTime: 0.5 });
+const { days, hours, minutes, seconds, start, pause, reset} = 
+useStopwatch({ offsetTime: 0.5 });
 ```
 
 At the moment this one does not have a callback, so that it makes some action when finishing. Like the previous one, it gives you back everything you need
