@@ -1,10 +1,20 @@
-# Set update schedule for GitHub Actions
-
 version: 2
 updates:
+  # Configuración para npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "dependabot"
 
+  # Configuración para GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      # Check for updates to GitHub Actions every week
       interval: "weekly"
+    labels:
+      - "dependencies"
+      - "github-actions"
