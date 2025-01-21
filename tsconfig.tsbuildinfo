@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/usestopwatch.ts","./src/usetimer.ts","./src/hook/index.ts","./src/hook/useinterval.ts","./src/utils/index.ts","./src/utils/setnewtime.ts"],"version":"5.7.3"}
